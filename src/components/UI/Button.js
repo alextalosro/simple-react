@@ -3,9 +3,6 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const Button = props => {
-    const OnClickHandler = (event) => {
-        event.preventDefault();
-    };
 
     return(
         <button
